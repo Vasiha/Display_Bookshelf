@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="testCases.TC_003_Giftcards">
+        <methods>
+          <include name="confirm_details"/>
+          <include name="set_amount_and_date"/>
+          <include name="tearDown"/>
+          <include name="invalid_details"/>
+          <include name="valid_details"/>
+          <include name="setup"/>
+          <include name="gift_card_selection"/>
+        </methods>
+      </class> <!-- testCases.TC_003_Giftcards -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
